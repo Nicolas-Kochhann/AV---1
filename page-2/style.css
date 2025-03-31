@@ -6,10 +6,26 @@
     font-size: 20pt;
 }
 
-.centraliza{
+form{
     display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-direction: column;
 }
 
-@media (max-width: 800px){
-    
+.centraliza{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+fieldset{
+    border: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }

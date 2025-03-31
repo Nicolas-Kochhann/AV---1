@@ -9,20 +9,20 @@
 </head>
 <body>
     <form method="post" id="formulario">
-        <h1>PEDRA-PAPEL-TESOURA</h1>
+        <h1 class="centraliza">PEDRA-PAPEL-TESOURA</h1>
         <div>
             <fieldset>
                 <legend>Jogador 1:</legend>
                 <label>
-                    <input type="radio" name="mao1" value="pedra1" id="pedra1">
+                    <input type="radio" name="mao1" value="pedra" id="pedra">
                     <img src="resources\pedra.jpg">
                 </label>
                 <label>
-                    <input type="radio" name="mao1" value="papel1" id="papel1">
+                    <input type="radio" name="mao1" value="papel" id="papel">
                     <img src="resources\papel.jpg">
                 </label>
                 <label>
-                    <input type="radio" name="mao1" value="tesoura1" id="tesoura1">
+                    <input type="radio" name="mao1" value="tesoura" id="tesoura">
                     <img src="resources\tesoura.jpg">
                 </label>
             </fieldset>
@@ -32,15 +32,15 @@
             <fieldset>
                 <legend>Jogador 2:</legend>
                 <label>
-                <label>
-                    <input type="radio" name="mao2" value="papel2" id="papel2">
+                    <input type="radio" name="mao2" value="pedra" id="pedra">
                     <img src="resources\pedra.jpg">
                 </label>
                 <label>
-                    <input type="radio" name="mao2" value="pedra2" id="pedra2">
+                    <input type="radio" name="mao2" value="papel" id="papel">
                     <img src="resources\papel.jpg">
                 </label>
-                    <input type="radio" name="mao2" value="tesoura2" id="tesoura2">
+                <label>
+                    <input type="radio" name="mao2" value="tesoura" id="tesoura">
                     <img src="resources\tesoura.jpg">
                 </label>
             </fieldset>
@@ -49,7 +49,7 @@
         <div>
             <input type="submit" name="botao" id="botao" value="Verificar">
         </div>
-        <h2 id="vencedor">VENCEDOR: Jogador x</h2>
+        <h2 class="centraliza" id="vencedor">VENCEDOR: Jogador x</h2>
     </form>
 </body>
 </html>

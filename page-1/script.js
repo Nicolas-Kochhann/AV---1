@@ -1,30 +1,18 @@
-function autoSubmit(formID){
-    alert(formID);
-    document.getElementById(formID).submit()
-}
+const INPUT = document.getElementById("time2");
 
-const FORM = document.getElementById("formID");
-
-FORM.autoSubmit();
-
-FORM.addEventListener("submit", function(event){
-    event.preventDefault;
-
-    const FORMDATA = FormData(this);
-    let dados =  Object.fromEntries(FORMDATA.entries());
-
-    let vencedor = getElementById("vencedor");
-
-    if(dados[gols1] == dados[gols2]){
-        vencedor.textContent = `EMPATE`
-
-    } else if (dados[gols1] > dados[gols2]){
-        vencedor.textContent = `${dados[time1]} WIN!`
-
-    } else if (dados[gols1] < dados[gols2]){
-        vencedor.textContent = `${dados[time2]} WIN!`
-
-    }
-
+INPUT.addEventListener("change", function(){
     
+    let time1 = document.getElementById("time1").value;
+    let time2 = document.getElementById("time2").value;
+    let gols1 = document.getElementById("gols1").value;
+    let gols2 = document.getElementById("gols2").value;
+    let vencedor = document.getElementById("vencedor");
+
+    if(gols1 == gols2){
+        vencedor.textContent = `EMPATE`;
+    } else if (gols1 > gols2){
+        vencedor.textContent = `${time1} WINS!`
+    } else if (gols1 < gols2){
+        vencedor.textContent = `${time2} WINS!`
+    }
 })

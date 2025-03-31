@@ -20,6 +20,10 @@ form{
     margin: 20px;
 }
 
+.shadow{
+    box-shadow: 3px 3px 2px 1px;
+}
+
 img{
     width: 100px;
     height: 100px;
@@ -30,4 +34,8 @@ fieldset{
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+input[type="text"]{
+    font-size: 14pt;
 }

@@ -10,9 +10,13 @@
 <body>
     <form method="post" id="formulario">
         <h1 class="centraliza">PEDRA-PAPEL-TESOURA</h1>
+
+        <div class="centraliza">
+            <input type="text" name="jogador1" id="jogador1" placeholder="Jogador 1" required>
+        </div>
+
         <div class="centraliza">
             <fieldset>
-                <legend>Jogador 1:</legend>
                 <label>
                     <input type="radio" name="mao1" value="pedra" id="pedra">
                     <img src="resources\pedra.jpg">
@@ -29,8 +33,11 @@
         </div>
 
         <div class="centraliza">
+            <input type="text" name="jogador2" id="jogador2" placeholder="Jogador 2" required>
+        </div>
+            
+        <div class="centraliza">
             <fieldset>
-                <legend>Jogador 2:</legend>
                 <label>
                     <input type="radio" name="mao2" value="pedra" id="pedra">
                     <img src="resources\pedra.jpg">
@@ -47,7 +54,7 @@
         </div>
 
         <div class="centraliza">
-            <input type="submit" name="botao" id="botao" value="Verificar">
+            <input class="shadow" type="submit" name="botao" id="botao" value="Verificar">
         </div>
         <h2 class="centraliza" id="vencedor">VENCEDOR: Jogador x</h2>
     </form>

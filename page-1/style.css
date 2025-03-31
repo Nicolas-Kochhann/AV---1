@@ -9,24 +9,12 @@ body{
     justify-content: center;
 }
 .container{
-    border-radius: 16px;
+    border-radius: 8px;
     text-align: center;
     padding: 10px;
-    margin: 40px;
+    margin: 1px;
     width: 100%;
     background-color: rgb(250, 250, 250);
-}
-.container h1{
-    padding-bottom: 40px;
-    font-size: 100px;
-}
-.container h2{
-    padding: 20px;
-    font-size: 60px;
-}
-.container h4{
-    padding: 20px;
-    font-size: 30px;
 }
 
 

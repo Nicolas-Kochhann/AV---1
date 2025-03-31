@@ -2,6 +2,11 @@
     margin: 0px;
     padding: 0px;
 }
+
+p{
+    display: flex;
+    align-items: center;
+}
 body{
     display: flex;
     margin: 0px;
@@ -9,12 +14,44 @@ body{
     justify-content: center;
 }
 .container{
-    border-radius: 8px;
+    border-radius: 16px;
     text-align: center;
     padding: 10px;
-    margin: 1px;
+    margin: 40px;
     width: 100%;
     background-color: rgb(250, 250, 250);
+}
+
+.placar2{
+    height: 20px
+}
+
+@media (min-width: 549px){
+    .container h1{
+        padding-bottom: 40px;
+        font-size: 100px;
+    }
+    .container h2{
+        padding: 20px;
+        font-size: 60px;
+    }
+    .container h4{
+        padding: 20px;
+        font-size: 30px;
+    }
+    
+    input{
+        border-color: black;
+        width: 150px;
+        height: 100px;
+        margin: 5px;
+    }
+
+    .placar{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
 }
 
 

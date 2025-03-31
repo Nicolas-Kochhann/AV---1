@@ -11,8 +11,8 @@ INPUT.addEventListener("change", function(){
     if(gols1 == gols2){
         vencedor.textContent = `EMPATE`;
     } else if (gols1 > gols2){
-        vencedor.textContent = `${time1} WINS!`
+        vencedor.textContent = `${time1} WINS!`;
     } else if (gols1 < gols2){
-        vencedor.textContent = `${time2} WINS!`
+        vencedor.textContent = `${time2} WINS!`;
     }
 })

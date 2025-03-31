@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 p{
@@ -24,6 +25,11 @@ body{
 
 .placar2{
     height: 20px
+}
+
+.page{
+    display: flex;
+    align-items: center;
 }
 
 @media (min-width: 549px){

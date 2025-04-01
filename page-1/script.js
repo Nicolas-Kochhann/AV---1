@@ -5,8 +5,7 @@ const INPUT4 = document.getElementById("time2");
 
 let inputs = [INPUT1, INPUT2, INPUT3, INPUT4];
 
-forEach(input : inputs){
-.addEventListener("change", function(){
+forEach(input -> input.addEventListener("change", function(){
     
     let time1 = document.getElementById("time1").value;
     let time2 = document.getElementById("time2").value;

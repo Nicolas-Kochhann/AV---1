@@ -1,4 +1,7 @@
-const INPUT = document.getElementById("time2");
+const INPUT1 = document.getElementById("time1");
+const INPUT2 = document.getElementById("gols1");
+const INPUT3 = document.getElementById("gols2");
+const INPUT4 = document.getElementById("time2");
 
 INPUT.addEventListener("change", function(){
     

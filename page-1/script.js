@@ -3,7 +3,10 @@ const INPUT2 = document.getElementById("gols1");
 const INPUT3 = document.getElementById("gols2");
 const INPUT4 = document.getElementById("time2");
 
-INPUT.addEventListener("change", function(){
+let inputs = [INPUT1, INPUT2, INPUT3, INPUT4];
+
+forEach(input : inputs){
+.addEventListener("change", function(){
     
     let time1 = document.getElementById("time1").value;
     let time2 = document.getElementById("time2").value;
@@ -18,4 +21,4 @@ INPUT.addEventListener("change", function(){
     } else if (gols1 < gols2){
         vencedor.textContent = `${time2} WINS!`;
     }
-})
+})}

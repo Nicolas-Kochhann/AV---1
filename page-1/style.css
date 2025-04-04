@@ -4,35 +4,39 @@
     box-sizing: border-box;
 }
 
-p{
-    display: flex;
-    align-items: center;
+html, body{
+    height: 100%;
 }
+
 body{
     display: flex;
     margin: 0px;
     background-color: green;
     justify-content: center;
+    align-content: center;
 }
+
 .container{
+    display: flex;
+    flex-direction: column;
     border-radius: 16px;
     text-align: center;
     padding: 10px;
     margin: 40px;
     width: 100%;
     background-color: rgb(250, 250, 250);
+    justify-content: center;
 }
 
 .placar2{
     height: 20px
 }
 
-.page{
-    display: flex;
-    align-items: center;
+.rodape{
+    margin-top: 50px;
 }
 
-@media (min-width: 549px){
+@media (min-width: 750px){
     .container h1{
         padding-bottom: 40px;
         font-size: 100px;

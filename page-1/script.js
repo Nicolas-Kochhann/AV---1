@@ -9,9 +9,11 @@ inputs.forEach(input => input.addEventListener("change", function(){
     
     let time1 = document.getElementById("time1").value;
     let time2 = document.getElementById("time2").value;
-    let gols1 = document.getElementById("gols1").value;
-    let gols2 = document.getElementById("gols2").value;
+    let gols1 = Number(document.getElementById("gols1").value);
+    let gols2 = Number(document.getElementById("gols2").value);
     let vencedor = document.getElementById("vencedor");
+    console.log(gols1);
+    console.log(gols2);
 
     if(gols1 == gols2){
         vencedor.textContent = `EMPATE`;
